@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    margin: auto;
+    color: #f5f6f7;
+    background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/freecodecamp.jpeg.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: large;
+}
+h1,p{
+    margin: 0 auto;
+  text-align: center;
+  
+}
+form{
+    width: 90vw;
+  max-width: 800px;
+  min-width: 500px;
+  margin: 1em auto;
+  background-color: #3d3d62;
+  padding-bottom: 2em;
+  font-family: sans-serif;
+  font-size: 20;
+  
+}
+
+fieldset {
+    border: none;
+   
+    
+    
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}  
+
+input, textarea, select{
+    margin: 10px 0 0 0;
+    width: 99%;
+    min-height: 3em;
+    border-radius: 10px;
+}
+
+.inline{
+    width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 96%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #15d72f;
+  border-color: white;
+  min-width: 300px;
+}
+
+option{
+  font-family: sans-serif;
+  font-size: 20;
+}
+select{
+  min-height: 4em;
+  width: 99.9%;
+}
+::placeholder{
+  font-family: sans-serif;
+  font-size: 20;
+}
